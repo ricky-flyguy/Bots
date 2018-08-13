@@ -7,7 +7,7 @@ public class Pathfinder : MonoBehaviour
 
     public TilemapPathfinderManager pathManagerInstance; // still have to determin how each pathfinder will gain acces to this 
     public PathSearch currentSearch;
-
+    int ttyul;
     public Vector3Int tStart, tFinish;
 
     private void Start()
